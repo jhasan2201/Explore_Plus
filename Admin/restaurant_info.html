@@ -27,7 +27,7 @@
             <li><a href="guide_info.html">Guide</a></li>
         </ul>
         <ul class="header__ul header__admin">
-            <li><a href="trip_adding.html">Trip Adding</a></li>
+            <li><a href="trip_crud/trip_adding.html">Trip Adding</a></li>
             <li><a href="transportation_info.html">Transport</a></li>
             <li><a href="hotel_info.html">Hotel</a></li>
             <li><a href="#">Restaurant</a></li>
@@ -50,7 +50,7 @@
             <th id="edit" scope="col" class="table__head">Edit</th>
         </tr>
         </thead>
-        <tbody>
+        <tbody class="table__body">
         <tr>
             <td class="table__item">3</td>
             <td class="table__item">Paratha</td>
@@ -60,7 +60,7 @@
             <td class="table__item">Pizza</td>
             <td class="table__item">400</td>
             <td class="table__item edit_option">
-                <button type="submit" class="table_edit">Edit</button>
+                <button type="submit" class="table_edit"><a href="restaurant_crud/restaurant_edit.html">Edit</a></button>
                 <button type="submit" class="table_edit diff">Delete</button>
             </td>
         </tr>
@@ -73,7 +73,20 @@
             <td class="table__item">Pizza</td>
             <td class="table__item">400</td>
             <td class="table__item edit_option">
-                <button type="submit" class="table_edit">Edit</button>
+                <button type="submit" class="table_edit"><a href="restaurant_crud/restaurant_edit.html">Edit</a></button>
+                <button type="submit" class="table_edit diff">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td class="table__item">3</td>
+            <td class="table__item">Paratha</td>
+            <td class="table__item">30</td>
+            <td class="table__item">Kacci</td>
+            <td class="table__item">250</td>
+            <td class="table__item">Pizza</td>
+            <td class="table__item">400</td>
+            <td class="table__item edit_option">
+                <button type="submit" class="table_edit"><a href="restaurant_crud/restaurant_edit.html">Edit</a></button>
                 <button type="submit" class="table_edit diff">Delete</button>
             </td>
         </tr>
@@ -83,7 +96,7 @@
         <tfoot>
         <tr>
             <td colspan="12" class="table__footer">
-                <button type="submit" class="add_option" >Add Menu</button>
+                <button type="submit" class="add_option" ><a href="restaurant_crud/restaurant_add.html">Add Menu</a></button>
             </td>
         </tr>
         </tfoot>

@@ -28,7 +28,7 @@
             <li><a href="guide_profile.html">Guide</a></li>
         </ul>
         <ul class="header__ul header__admin">
-            <li><a href="trip_adding.html">Trip Adding</a></li>
+            <li><a href="trip_crud/trip_adding.html">Trip Adding</a></li>
             <li><a href="#">Transport</a></li>
             <li><a href="hotel_info.html">Hotel</a></li>
             <li><a href="restaurant_info.html">Restaurant</a></li>
@@ -55,7 +55,7 @@
                 <th id="edit" scope="col" class="table__head">Edit</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="table__body">
             <tr>
                 <td class="table__item">3</td>
                 <td class="table__item">bus</td>
@@ -69,13 +69,13 @@
                 <td class="table__item">eco</td>
                 <td class="table__item">42</td>
                 <td class="table__item edit_option">
-                    <button type="submit" class="table_edit">Edit</button>
+                    <button type="submit" class="table_edit"><a href="transport_crud/transport_edit.html">Edit</a></button>
                     <button type="submit" class="table_edit diff">Delete</button>
                 </td>
             </tr>
             <tr>
-                <td class="table__item">5</td>
-                <td class="table__item">train</td>
+                <td class="table__item">3</td>
+                <td class="table__item">bus</td>
                 <td class="table__item">dhaka</td>
                 <td class="table__item">sylhet</td>
                 <td class="table__item">1200</td>
@@ -86,13 +86,13 @@
                 <td class="table__item">eco</td>
                 <td class="table__item">42</td>
                 <td class="table__item edit_option">
-                    <button type="submit" class="table_edit">Edit</button>
+                    <button type="submit" class="table_edit"><a href="transport_crud/transport_edit.html">Edit</a></button>
                     <button type="submit" class="table_edit diff">Delete</button>
                 </td>
             </tr>
             <tr>
-                <td class="table__item">2</td>
-                <td class="table__item">plane</td>
+                <td class="table__item">3</td>
+                <td class="table__item">bus</td>
                 <td class="table__item">dhaka</td>
                 <td class="table__item">sylhet</td>
                 <td class="table__item">1200</td>
@@ -103,15 +103,16 @@
                 <td class="table__item">eco</td>
                 <td class="table__item">42</td>
                 <td class="table__item edit_option">
-                    <button type="submit" class="table_edit">Edit</button>
+                    <button type="submit" class="table_edit"><a href="transport_crud/transport_edit.html">Edit</a></button>
                     <button type="submit" class="table_edit diff">Delete</button>
                 </td>
             </tr>
+
         </tbody>
         <tfoot>
             <tr>
                 <td colspan="12" class="table__footer">
-                    <button type="submit" class="add_option" >Add Transportation</button>
+                    <button type="submit" class="add_option" ><a href="transport_crud/transport_add.html">Add Transportation</a></button>
                 </td>
             </tr>
         </tfoot>

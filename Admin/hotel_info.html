@@ -27,7 +27,7 @@
             <li><a href="guide_profile.html">Guide</a></li>
         </ul>
         <ul class="header__ul header__admin">
-            <li><a href="trip_adding.html">Trip Adding</a></li>
+            <li><a href="trip_crud/trip_adding.html">Trip Adding</a></li>
             <li><a href="transportation_info.html">Transport</a></li>
             <li><a href="#">Hotel</a></li>
             <li><a href="restaurant_info.html">Restaurant</a></li>
@@ -39,74 +39,85 @@
     <table class="main__table">
         <thead>
             <tr>
+                <th id="hotel-id" scope="col" class="table__head">Hotel ID</th>
                 <th id="type" scope="col" class="table__head">Type</th>
                 <th id="name" scope="col" class="table__head">Name</th>
                 <th id="price" scope="col" class="table__head">Price</th>
-                <th id="hotel-type" scope="col" class="table__head">Hotel Type</th>
-                <th id="available-room" scope="col" class="table__head">Available Room</th>
+                <th id="available-room" scope="col" class="table__head">Avai Room</th>
                 <th id="place" scope="col" class="table__head">Place</th>
-                <th id="location" scope="col" class="table__head">Location</th>
+                <th id="map" scope="col" class="table__head">Map</th>
+                <th id="picture" scope="col" class="table__head">Picture</th>
                 <th id="edit" scope="col" class="table__head">Edit</th>
             </tr>
         </thead>
         <tbody class="table__body">
             <tr>
                 <td class="table__item">california</td>
+                <td class="table__item">california</td>
                 <td class="table__item">123</td>
                 <td class="table__item">3 star</td>
                 <td class="table__item">12</td>
                 <td class="table__item">coxs</td>
                 <td class="table__item">31 st</td>
-                <td class="table__item">31 st</td>
+                <td class="table__item">
+                    <div class="hotel__pic">
+                        <figure>
+                            <img src="../img/hotel/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="hotel1" width="4608" height="3072">
+                        </figure>
+                    </div>
+                </td>
                 <td class="table__item edit_option">
-                    <button type="submit" class="table_edit">Edit</button>
+                    <button type="submit" class="table_edit"><a href="hotel_crud/hotel_edit.html">Edit</a></button>
                     <button type="submit" class="table_edit diff">Delete</button>
                 </td>
             </tr>
             <tr>
-                <td class="table__item">california2</td>
-                <td class="table__item">12356</td>
-                <td class="table__item">7 star</td>
-                <td class="table__item">152</td>
-                <td class="table__item">bazar</td>
+                <td class="table__item">california</td>
+                <td class="table__item">california</td>
+                <td class="table__item">123</td>
+                <td class="table__item">3 star</td>
+                <td class="table__item">12</td>
+                <td class="table__item">coxs</td>
                 <td class="table__item">31 st</td>
-                <td class="table__item">31 st</td>
+                <td class="table__item">
+                    <div class="hotel__pic">
+                        <figure>
+                            <img src="../img/hotel/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="hotel1" width="4608" height="3072">
+                        </figure>
+                    </div>
+                </td>
                 <td class="table__item edit_option">
-                    <button type="submit" class="table_edit">Edit</button>
+                    <button type="submit" class="table_edit"><a href="hotel_crud/hotel_edit.html">Edit</a></button>
                     <button type="submit" class="table_edit diff">Delete</button>
                 </td>
             </tr>
             <tr>
-                <td class="table__item">california2</td>
-                <td class="table__item">12356</td>
-                <td class="table__item">7 star</td>
-                <td class="table__item">152</td>
-                <td class="table__item">bazar</td>
+                <td class="table__item">california</td>
+                <td class="table__item">california</td>
+                <td class="table__item">123</td>
+                <td class="table__item">3 star</td>
+                <td class="table__item">12</td>
+                <td class="table__item">coxs</td>
                 <td class="table__item">31 st</td>
-                <td class="table__item">31 st</td>
+                <td class="table__item">
+                    <div class="hotel__pic">
+                        <figure>
+                            <img src="../img/hotel/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="hotel1" width="4608" height="3072">
+                        </figure>
+                    </div>
+                </td>
                 <td class="table__item edit_option">
-                    <button type="submit" class="table_edit">Edit</button>
+                    <button type="submit" class="table_edit"><a href="hotel_crud/hotel_edit.html">Edit</a></button>
                     <button type="submit" class="table_edit diff">Delete</button>
                 </td>
             </tr>
-            <tr>
-                <td class="table__item">california2</td>
-                <td class="table__item">12356</td>
-                <td class="table__item">7 star</td>
-                <td class="table__item">152</td>
-                <td class="table__item">bazar</td>
-                <td class="table__item">31 st</td>
-                <td class="table__item">31 st</td>
-                <td class="table__item edit_option">
-                    <button type="submit" class="table_edit">Edit</button>
-                    <button type="submit" class="table_edit diff">Delete</button>
-                </td>
-            </tr>
+
+
         </tbody>
         <tfoot>
             <tr>
                 <td colspan="12" class="table__footer">
-                    <button type="submit" class="add_option" >Add Hotel</button>
+                    <button type="submit" class="add_option" ><a href="hotel_crud/hotel_add.html">Add Hotel</a></button>
                 </td>
             </tr>
         </tfoot>
